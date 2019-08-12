@@ -1,0 +1,50 @@
+= Introduction
+
+The main scope of this PoC is to check, if Memory Mapped Files from NIO are indeed faster and whether or not they leave any traces in memory.
+
+== The repository content
+
+```
++- Root
++- src - main sources
+  +- test - Benchmarks
++- heapdumps - all heapdumps gathered before and after obtaining a reference to a secret
+  +- FileInputStreamReader - Heapdumps for Files.newInputStream impl
+  +- MemoryMappedFileReader - Heapdumps for Memory Mapped Files
++- Benchmark.txt - Benchmark results
++- make_heapdumo.sh - a short script for making heapdumps
++- make_native_dump.sh - Dumps whole process memory
++- verify_native_heap_dump.sh - Checks if a native dump contains our string (at least first 6 bytes)
++- OQL-queries.txt - Queries for MAT
+```
+
+== Outcomes
+
+=== Benchamrk results:
+
+```
+Benchmark                                                                 (path)  Mode  Cnt   Score   Error  Units
+FileInputStreamReaderTest.FileInputStreamPerf  ./src/test/resources/short-secret  avgt   31   3.541 ± 0.021  us/op
+FileInputStreamReaderTest.FileInputStreamPerf   ./src/test/resources/long-secret  avgt   31   8.756 ± 0.049  us/op
+FileInputStreamReaderTest.MemoryMappedPerf     ./src/test/resources/short-secret  avgt   31   7.268 ± 0.130  us/op
+FileInputStreamReaderTest.MemoryMappedPerf      ./src/test/resources/long-secret  avgt   31  27.471 ± 0.251  us/op
+```
+
+=== Heap analysis
+
+Our String hasn't been found in any of the 2nd heap dumps (the one after `System.gc()`). That's good!
+
+IMPORTANT: Not a widely known fact - you can only take a heapdump (by using `jcmd` for example) by using the same user that is running the java process. Otherwise you'd get:
+```
+java.io.IOException: well-known file /tmp/.java_pid28744 is not secure: file should be owned by the current user (which is 1001) but is owned by 1000
+	at sun.tools.attach.LinuxVirtualMachine.checkPermissions(Native Method)
+	at sun.tools.attach.LinuxVirtualMachine.<init>(LinuxVirtualMachine.java:117)
+	at sun.tools.attach.LinuxAttachProvider.attachVirtualMachine(LinuxAttachProvider.java:63)
+	at com.sun.tools.attach.VirtualMachine.attach(VirtualMachine.java:208)
+	at sun.tools.jcmd.JCmd.executeCommandForPid(JCmd.java:147)
+	at sun.tools.jcmd.JCmd.main(JCmd.java:131)
+```
+
+=== Native heap analysis
+
+Our byte array has been found in each case. That's bad. So indeed we need to override the secret once we are done.

@@ -1,0 +1,2 @@
+SELECT s FROM java.lang.String s WHERE (toString(s) LIKE ".*super.*")
+select * from byte[] b where b[0]=84
