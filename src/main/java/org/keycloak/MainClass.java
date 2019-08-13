@@ -12,6 +12,7 @@ public class MainClass {
 
         Path secret = Paths.get("./src/test/resources/short-secret");
         FileReader fileReader = new MemoryMappedFileReader();
+        //for testing if byte array is in the heap, it's better to change this to a strong reference
         WeakReference<String> reference = new WeakReference<>(fileReader.readFile(secret));
 
         System.out.println("==== Now obtain a heapdump and hit enter");

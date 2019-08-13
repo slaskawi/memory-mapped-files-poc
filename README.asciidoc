@@ -24,10 +24,10 @@ The main scope of this PoC is to check, if Memory Mapped Files from NIO are inde
 
 ```
 Benchmark                                                                 (path)  Mode  Cnt   Score   Error  Units
-FileInputStreamReaderTest.FileInputStreamPerf  ./src/test/resources/short-secret  avgt   31   3.541 ± 0.021  us/op
-FileInputStreamReaderTest.FileInputStreamPerf   ./src/test/resources/long-secret  avgt   31   8.756 ± 0.049  us/op
-FileInputStreamReaderTest.MemoryMappedPerf     ./src/test/resources/short-secret  avgt   31   7.268 ± 0.130  us/op
-FileInputStreamReaderTest.MemoryMappedPerf      ./src/test/resources/long-secret  avgt   31  27.471 ± 0.251  us/op
+FileInputStreamReaderTest.FileInputStreamPerf  ./src/test/resources/short-secret  avgt   31   4.678 ± 0.371  us/op
+FileInputStreamReaderTest.FileInputStreamPerf   ./src/test/resources/long-secret  avgt   31  13.048 ± 1.467  us/op
+FileInputStreamReaderTest.MemoryMappedPerf     ./src/test/resources/short-secret  avgt   31   9.666 ± 0.989  us/op
+FileInputStreamReaderTest.MemoryMappedPerf      ./src/test/resources/long-secret  avgt   31  40.217 ± 2.420  us/op
 ```
 
 === Heap analysis

@@ -21,13 +21,13 @@ public class FileInputStreamReader implements FileReader {
 //            byte[4] = 32(20)
 //            byte[5] = 105(69)
 //            byte[6] = 115(73)
-            System.out.println("byte[0] = " + buf[0] + "(" + Integer.toHexString(buf[0]) + ")");
-            System.out.println("byte[1] = " + buf[1] + "(" + Integer.toHexString(buf[1]) + ")");
-            System.out.println("byte[2] = " + buf[2] + "(" + Integer.toHexString(buf[2]) + ")");
-            System.out.println("byte[3] = " + buf[3] + "(" + Integer.toHexString(buf[3]) + ")");
-            System.out.println("byte[4] = " + buf[4] + "(" + Integer.toHexString(buf[4]) + ")");
-            System.out.println("byte[5] = " + buf[5] + "(" + Integer.toHexString(buf[5]) + ")");
-            System.out.println("byte[6] = " + buf[6] + "(" + Integer.toHexString(buf[6]) + ")");
+//            System.out.println("byte[0] = " + buf[0] + "(" + Integer.toHexString(buf[0]) + ")");
+//            System.out.println("byte[1] = " + buf[1] + "(" + Integer.toHexString(buf[1]) + ")");
+//            System.out.println("byte[2] = " + buf[2] + "(" + Integer.toHexString(buf[2]) + ")");
+//            System.out.println("byte[3] = " + buf[3] + "(" + Integer.toHexString(buf[3]) + ")");
+//            System.out.println("byte[4] = " + buf[4] + "(" + Integer.toHexString(buf[4]) + ")");
+//            System.out.println("byte[5] = " + buf[5] + "(" + Integer.toHexString(buf[5]) + ")");
+//            System.out.println("byte[6] = " + buf[6] + "(" + Integer.toHexString(buf[6]) + ")");
             return new String(buf);
         }
     }

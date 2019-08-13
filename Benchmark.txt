@@ -1,9 +1,9 @@
-/opt/jdk1.8.0_161/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=33543:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8 -classpath /home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/plugins/junit/lib/junit-rt.jar:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/plugins/junit/lib/junit5-rt.jar:/opt/jdk1.8.0_161/jre/lib/charsets.jar:/opt/jdk1.8.0_161/jre/lib/deploy.jar:/opt/jdk1.8.0_161/jre/lib/ext/cldrdata.jar:/opt/jdk1.8.0_161/jre/lib/ext/dnsns.jar:/opt/jdk1.8.0_161/jre/lib/ext/jaccess.jar:/opt/jdk1.8.0_161/jre/lib/ext/jfxrt.jar:/opt/jdk1.8.0_161/jre/lib/ext/localedata.jar:/opt/jdk1.8.0_161/jre/lib/ext/nashorn.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunec.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunjce_provider.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunpkcs11.jar:/opt/jdk1.8.0_161/jre/lib/ext/zipfs.jar:/opt/jdk1.8.0_161/jre/lib/javaws.jar:/opt/jdk1.8.0_161/jre/lib/jce.jar:/opt/jdk1.8.0_161/jre/lib/jfr.jar:/opt/jdk1.8.0_161/jre/lib/jfxswt.jar:/opt/jdk1.8.0_161/jre/lib/jsse.jar:/opt/jdk1.8.0_161/jre/lib/management-agent.jar:/opt/jdk1.8.0_161/jre/lib/plugin.jar:/opt/jdk1.8.0_161/jre/lib/resources.jar:/opt/jdk1.8.0_161/jre/lib/rt.jar:/home/slaskawi/work/keycloak/memory-mapped-files-poc/target/test-classes:/home/slaskawi/work/keycloak/memory-mapped-files-poc/target/classes:/home/slaskawi/.m2/repository/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar:/home/slaskawi/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/home/slaskawi/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/home/slaskawi/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.21/jmh-generator-annprocess-1.21.jar:/home/slaskawi/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/slaskawi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 org.keycloak.FileInputStreamReaderTest
+/opt/jdk1.8.0_161/bin/java -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=46067:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8 -classpath /home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/plugins/junit/lib/junit-rt.jar:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/plugins/junit/lib/junit5-rt.jar:/opt/jdk1.8.0_161/jre/lib/charsets.jar:/opt/jdk1.8.0_161/jre/lib/deploy.jar:/opt/jdk1.8.0_161/jre/lib/ext/cldrdata.jar:/opt/jdk1.8.0_161/jre/lib/ext/dnsns.jar:/opt/jdk1.8.0_161/jre/lib/ext/jaccess.jar:/opt/jdk1.8.0_161/jre/lib/ext/jfxrt.jar:/opt/jdk1.8.0_161/jre/lib/ext/localedata.jar:/opt/jdk1.8.0_161/jre/lib/ext/nashorn.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunec.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunjce_provider.jar:/opt/jdk1.8.0_161/jre/lib/ext/sunpkcs11.jar:/opt/jdk1.8.0_161/jre/lib/ext/zipfs.jar:/opt/jdk1.8.0_161/jre/lib/javaws.jar:/opt/jdk1.8.0_161/jre/lib/jce.jar:/opt/jdk1.8.0_161/jre/lib/jfr.jar:/opt/jdk1.8.0_161/jre/lib/jfxswt.jar:/opt/jdk1.8.0_161/jre/lib/jsse.jar:/opt/jdk1.8.0_161/jre/lib/management-agent.jar:/opt/jdk1.8.0_161/jre/lib/plugin.jar:/opt/jdk1.8.0_161/jre/lib/resources.jar:/opt/jdk1.8.0_161/jre/lib/rt.jar:/home/slaskawi/work/keycloak/memory-mapped-files-poc/target/test-classes:/home/slaskawi/work/keycloak/memory-mapped-files-poc/target/classes:/home/slaskawi/.m2/repository/org/openjdk/jmh/jmh-core/1.21/jmh-core-1.21.jar:/home/slaskawi/.m2/repository/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar:/home/slaskawi/.m2/repository/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar:/home/slaskawi/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.21/jmh-generator-annprocess-1.21.jar:/home/slaskawi/.m2/repository/junit/junit/4.13-beta-3/junit-4.13-beta-3.jar:/home/slaskawi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar com.intellij.rt.execution.junit.JUnitStarter -ideVersion5 -junit4 org.keycloak.FileInputStreamReaderTest
 
 # JMH version: 1.21
 # VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
 # VM invoker: /opt/jdk1.8.0_161/jre/bin/java
-# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=33543:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
+# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=46067:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
 # Warmup: 5 iterations, 1 s each
 # Measurement: 31 iterations, 1 s each
 # Timeout: 10 min per iteration
@@ -14,54 +14,54 @@
 
 # Run progress: 0.00% complete, ETA 00:02:24
 # Fork: 1 of 1
-# Warmup Iteration   1: 4.341 us/op
-# Warmup Iteration   2: 3.679 us/op
-# Warmup Iteration   3: 3.502 us/op
-# Warmup Iteration   4: 3.534 us/op
-# Warmup Iteration   5: 3.544 us/op
-Iteration   1: 3.541 us/op
-Iteration   2: 3.561 us/op
-Iteration   3: 3.529 us/op
-Iteration   4: 3.518 us/op
-Iteration   5: 3.508 us/op
-Iteration   6: 3.505 us/op
-Iteration   7: 3.506 us/op
-Iteration   8: 3.513 us/op
-Iteration   9: 3.523 us/op
-Iteration  10: 3.536 us/op
-Iteration  11: 3.546 us/op
-Iteration  12: 3.572 us/op
-Iteration  13: 3.576 us/op
-Iteration  14: 3.515 us/op
-Iteration  15: 3.571 us/op
-Iteration  16: 3.508 us/op
-Iteration  17: 3.505 us/op
-Iteration  18: 3.549 us/op
-Iteration  19: 3.577 us/op
-Iteration  20: 3.589 us/op
-Iteration  21: 3.625 us/op
-Iteration  22: 3.532 us/op
-Iteration  23: 3.521 us/op
-Iteration  24: 3.522 us/op
-Iteration  25: 3.592 us/op
-Iteration  26: 3.518 us/op
-Iteration  27: 3.512 us/op
-Iteration  28: 3.582 us/op
-Iteration  29: 3.528 us/op
-Iteration  30: 3.576 us/op
-Iteration  31: 3.523 us/op
+# Warmup Iteration   1: 5.441 us/op
+# Warmup Iteration   2: 5.401 us/op
+# Warmup Iteration   3: 4.195 us/op
+# Warmup Iteration   4: 4.150 us/op
+# Warmup Iteration   5: 5.308 us/op
+Iteration   1: 5.748 us/op
+Iteration   2: 4.192 us/op
+Iteration   3: 4.331 us/op
+Iteration   4: 4.032 us/op
+Iteration   5: 4.088 us/op
+Iteration   6: 4.803 us/op
+Iteration   7: 4.719 us/op
+Iteration   8: 5.066 us/op
+Iteration   9: 4.410 us/op
+Iteration  10: 4.968 us/op
+Iteration  11: 4.498 us/op
+Iteration  12: 4.213 us/op
+Iteration  13: 4.545 us/op
+Iteration  14: 5.514 us/op
+Iteration  15: 4.111 us/op
+Iteration  16: 5.818 us/op
+Iteration  17: 4.630 us/op
+Iteration  18: 6.142 us/op
+Iteration  19: 5.224 us/op
+Iteration  20: 5.026 us/op
+Iteration  21: 4.414 us/op
+Iteration  22: 4.812 us/op
+Iteration  23: 4.766 us/op
+Iteration  24: 4.518 us/op
+Iteration  25: 4.222 us/op
+Iteration  26: 4.114 us/op
+Iteration  27: 4.358 us/op
+Iteration  28: 4.079 us/op
+Iteration  29: 3.918 us/op
+Iteration  30: 5.110 us/op
+Iteration  31: 4.622 us/op
 
 
 Result "org.keycloak.FileInputStreamReaderTest.FileInputStreamPerf":
-  3.541 ±(99.9%) 0.021 us/op [Average]
-  (min, avg, max) = (3.505, 3.541, 3.625), stdev = 0.032
-  CI (99.9%): [3.520, 3.562] (assumes normal distribution)
+  4.678 ±(99.9%) 0.371 us/op [Average]
+  (min, avg, max) = (3.918, 4.678, 6.142), stdev = 0.566
+  CI (99.9%): [4.307, 5.049] (assumes normal distribution)
 
 
 # JMH version: 1.21
 # VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
 # VM invoker: /opt/jdk1.8.0_161/jre/bin/java
-# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=33543:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
+# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=46067:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
 # Warmup: 5 iterations, 1 s each
 # Measurement: 31 iterations, 1 s each
 # Timeout: 10 min per iteration
@@ -70,56 +70,56 @@ Result "org.keycloak.FileInputStreamReaderTest.FileInputStreamPerf":
 # Benchmark: org.keycloak.FileInputStreamReaderTest.FileInputStreamPerf
 # Parameters: (path = ./src/test/resources/long-secret)
 
-# Run progress: 25.00% complete, ETA 00:02:56
+# Run progress: 25.00% complete, ETA 00:03:28
 # Fork: 1 of 1
-# Warmup Iteration   1: 10.681 us/op
-# Warmup Iteration   2: 8.810 us/op
-# Warmup Iteration   3: 8.845 us/op
-# Warmup Iteration   4: 8.809 us/op
-# Warmup Iteration   5: 8.700 us/op
-Iteration   1: 8.808 us/op
-Iteration   2: 8.761 us/op
-Iteration   3: 8.740 us/op
-Iteration   4: 8.767 us/op
-Iteration   5: 8.763 us/op
-Iteration   6: 8.712 us/op
-Iteration   7: 8.702 us/op
-Iteration   8: 8.837 us/op
-Iteration   9: 8.702 us/op
-Iteration  10: 8.911 us/op
-Iteration  11: 8.665 us/op
-Iteration  12: 8.728 us/op
-Iteration  13: 8.667 us/op
-Iteration  14: 8.914 us/op
-Iteration  15: 8.741 us/op
-Iteration  16: 8.884 us/op
-Iteration  17: 8.838 us/op
-Iteration  18: 8.702 us/op
-Iteration  19: 8.889 us/op
-Iteration  20: 8.862 us/op
-Iteration  21: 8.708 us/op
-Iteration  22: 8.733 us/op
-Iteration  23: 8.703 us/op
-Iteration  24: 8.685 us/op
-Iteration  25: 8.735 us/op
-Iteration  26: 8.682 us/op
-Iteration  27: 8.768 us/op
-Iteration  28: 8.694 us/op
-Iteration  29: 8.717 us/op
-Iteration  30: 8.752 us/op
-Iteration  31: 8.676 us/op
+# Warmup Iteration   1: 15.212 us/op
+# Warmup Iteration   2: 10.854 us/op
+# Warmup Iteration   3: 10.728 us/op
+# Warmup Iteration   4: 10.194 us/op
+# Warmup Iteration   5: 10.341 us/op
+Iteration   1: 10.353 us/op
+Iteration   2: 10.463 us/op
+Iteration   3: 11.775 us/op
+Iteration   4: 11.092 us/op
+Iteration   5: 10.172 us/op
+Iteration   6: 10.259 us/op
+Iteration   7: 10.921 us/op
+Iteration   8: 12.319 us/op
+Iteration   9: 14.117 us/op
+Iteration  10: 11.477 us/op
+Iteration  11: 10.378 us/op
+Iteration  12: 10.177 us/op
+Iteration  13: 13.994 us/op
+Iteration  14: 14.945 us/op
+Iteration  15: 17.447 us/op
+Iteration  16: 15.227 us/op
+Iteration  17: 14.555 us/op
+Iteration  18: 13.640 us/op
+Iteration  19: 14.011 us/op
+Iteration  20: 15.554 us/op
+Iteration  21: 13.121 us/op
+Iteration  22: 16.212 us/op
+Iteration  23: 15.132 us/op
+Iteration  24: 14.445 us/op
+Iteration  25: 14.535 us/op
+Iteration  26: 11.497 us/op
+Iteration  27: 10.524 us/op
+Iteration  28: 11.554 us/op
+Iteration  29: 14.260 us/op
+Iteration  30: 12.647 us/op
+Iteration  31: 17.687 us/op
 
 
 Result "org.keycloak.FileInputStreamReaderTest.FileInputStreamPerf":
-  8.756 ±(99.9%) 0.049 us/op [Average]
-  (min, avg, max) = (8.665, 8.756, 8.914), stdev = 0.075
-  CI (99.9%): [8.707, 8.805] (assumes normal distribution)
+  13.048 ±(99.9%) 1.467 us/op [Average]
+  (min, avg, max) = (10.172, 13.048, 17.687), stdev = 2.240
+  CI (99.9%): [11.581, 14.515] (assumes normal distribution)
 
 
 # JMH version: 1.21
 # VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
 # VM invoker: /opt/jdk1.8.0_161/jre/bin/java
-# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=33543:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
+# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=46067:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
 # Warmup: 5 iterations, 1 s each
 # Measurement: 31 iterations, 1 s each
 # Timeout: 10 min per iteration
@@ -128,56 +128,56 @@ Result "org.keycloak.FileInputStreamReaderTest.FileInputStreamPerf":
 # Benchmark: org.keycloak.FileInputStreamReaderTest.MemoryMappedPerf
 # Parameters: (path = ./src/test/resources/short-secret)
 
-# Run progress: 50.00% complete, ETA 00:01:57
+# Run progress: 50.00% complete, ETA 00:02:08
 # Fork: 1 of 1
-# Warmup Iteration   1: 8.274 us/op
-# Warmup Iteration   2: 7.337 us/op
-# Warmup Iteration   3: 7.092 us/op
-# Warmup Iteration   4: 7.097 us/op
-# Warmup Iteration   5: 7.200 us/op
-Iteration   1: 7.278 us/op
-Iteration   2: 7.172 us/op
-Iteration   3: 7.350 us/op
-Iteration   4: 7.169 us/op
-Iteration   5: 7.187 us/op
-Iteration   6: 7.228 us/op
-Iteration   7: 7.350 us/op
-Iteration   8: 7.170 us/op
-Iteration   9: 7.238 us/op
-Iteration  10: 7.198 us/op
-Iteration  11: 7.097 us/op
-Iteration  12: 7.210 us/op
-Iteration  13: 7.134 us/op
-Iteration  14: 7.104 us/op
-Iteration  15: 7.176 us/op
-Iteration  16: 7.370 us/op
-Iteration  17: 7.146 us/op
-Iteration  18: 7.098 us/op
-Iteration  19: 7.327 us/op
-Iteration  20: 7.123 us/op
-Iteration  21: 7.469 us/op
-Iteration  22: 7.081 us/op
-Iteration  23: 7.130 us/op
-Iteration  24: 7.158 us/op
-Iteration  25: 7.411 us/op
-Iteration  26: 7.156 us/op
-Iteration  27: 7.154 us/op
-Iteration  28: 7.285 us/op
-Iteration  29: 7.794 us/op
-Iteration  30: 7.670 us/op
-Iteration  31: 7.881 us/op
+# Warmup Iteration   1: 12.105 us/op
+# Warmup Iteration   2: 8.416 us/op
+# Warmup Iteration   3: 9.636 us/op
+# Warmup Iteration   4: 10.109 us/op
+# Warmup Iteration   5: 8.901 us/op
+Iteration   1: 8.432 us/op
+Iteration   2: 9.034 us/op
+Iteration   3: 8.955 us/op
+Iteration   4: 8.472 us/op
+Iteration   5: 9.952 us/op
+Iteration   6: 12.163 us/op
+Iteration   7: 9.393 us/op
+Iteration   8: 8.781 us/op
+Iteration   9: 11.341 us/op
+Iteration  10: 9.069 us/op
+Iteration  11: 8.828 us/op
+Iteration  12: 8.393 us/op
+Iteration  13: 8.992 us/op
+Iteration  14: 8.995 us/op
+Iteration  15: 10.270 us/op
+Iteration  16: 8.497 us/op
+Iteration  17: 8.698 us/op
+Iteration  18: 7.989 us/op
+Iteration  19: 11.972 us/op
+Iteration  20: 9.149 us/op
+Iteration  21: 8.062 us/op
+Iteration  22: 9.785 us/op
+Iteration  23: 9.346 us/op
+Iteration  24: 9.521 us/op
+Iteration  25: 10.584 us/op
+Iteration  26: 11.101 us/op
+Iteration  27: 9.932 us/op
+Iteration  28: 8.709 us/op
+Iteration  29: 8.302 us/op
+Iteration  30: 12.295 us/op
+Iteration  31: 14.628 us/op
 
 
 Result "org.keycloak.FileInputStreamReaderTest.MemoryMappedPerf":
-  7.268 ±(99.9%) 0.130 us/op [Average]
-  (min, avg, max) = (7.081, 7.268, 7.881), stdev = 0.199
-  CI (99.9%): [7.138, 7.399] (assumes normal distribution)
+  9.666 ±(99.9%) 0.989 us/op [Average]
+  (min, avg, max) = (7.989, 9.666, 14.628), stdev = 1.511
+  CI (99.9%): [8.677, 10.655] (assumes normal distribution)
 
 
 # JMH version: 1.21
 # VM version: JDK 1.8.0_161, Java HotSpot(TM) 64-Bit Server VM, 25.161-b12
 # VM invoker: /opt/jdk1.8.0_161/jre/bin/java
-# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=33543:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
+# VM options: -ea -Didea.test.cyclic.buffer.size=1048576 -javaagent:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/lib/idea_rt.jar=46067:/home/slaskawi/.local/share/JetBrains/Toolbox/apps/IDEA-C/ch-1/192.6262.9/bin -Dfile.encoding=UTF-8
 # Warmup: 5 iterations, 1 s each
 # Measurement: 31 iterations, 1 s each
 # Timeout: 10 min per iteration
@@ -186,53 +186,53 @@ Result "org.keycloak.FileInputStreamReaderTest.MemoryMappedPerf":
 # Benchmark: org.keycloak.FileInputStreamReaderTest.MemoryMappedPerf
 # Parameters: (path = ./src/test/resources/long-secret)
 
-# Run progress: 75.00% complete, ETA 00:00:58
+# Run progress: 75.00% complete, ETA 00:01:03
 # Fork: 1 of 1
-# Warmup Iteration   1: 33.211 us/op
-# Warmup Iteration   2: 30.195 us/op
-# Warmup Iteration   3: 27.851 us/op
-# Warmup Iteration   4: 28.056 us/op
-# Warmup Iteration   5: 29.327 us/op
-Iteration   1: 28.014 us/op
-Iteration   2: 28.092 us/op
-Iteration   3: 27.690 us/op
-Iteration   4: 27.148 us/op
-Iteration   5: 27.273 us/op
-Iteration   6: 27.450 us/op
-Iteration   7: 27.401 us/op
-Iteration   8: 27.609 us/op
-Iteration   9: 27.515 us/op
-Iteration  10: 27.902 us/op
-Iteration  11: 26.951 us/op
-Iteration  12: 26.972 us/op
-Iteration  13: 27.388 us/op
-Iteration  14: 27.450 us/op
-Iteration  15: 27.032 us/op
-Iteration  16: 27.637 us/op
-Iteration  17: 27.044 us/op
-Iteration  18: 27.566 us/op
-Iteration  19: 27.815 us/op
-Iteration  20: 27.267 us/op
-Iteration  21: 27.431 us/op
-Iteration  22: 27.754 us/op
-Iteration  23: 27.355 us/op
-Iteration  24: 26.865 us/op
-Iteration  25: 28.309 us/op
-Iteration  26: 27.259 us/op
-Iteration  27: 27.549 us/op
-Iteration  28: 27.352 us/op
-Iteration  29: 28.232 us/op
-Iteration  30: 26.813 us/op
-Iteration  31: 27.453 us/op
+# Warmup Iteration   1: 58.466 us/op
+# Warmup Iteration   2: 44.371 us/op
+# Warmup Iteration   3: 43.889 us/op
+# Warmup Iteration   4: 38.291 us/op
+# Warmup Iteration   5: 38.847 us/op
+Iteration   1: 36.184 us/op
+Iteration   2: 39.251 us/op
+Iteration   3: 41.042 us/op
+Iteration   4: 42.828 us/op
+Iteration   5: 41.332 us/op
+Iteration   6: 37.042 us/op
+Iteration   7: 39.575 us/op
+Iteration   8: 39.038 us/op
+Iteration   9: 37.468 us/op
+Iteration  10: 37.998 us/op
+Iteration  11: 43.516 us/op
+Iteration  12: 49.804 us/op
+Iteration  13: 44.650 us/op
+Iteration  14: 43.325 us/op
+Iteration  15: 38.542 us/op
+Iteration  16: 37.772 us/op
+Iteration  17: 37.471 us/op
+Iteration  18: 49.838 us/op
+Iteration  19: 39.630 us/op
+Iteration  20: 40.761 us/op
+Iteration  21: 38.001 us/op
+Iteration  22: 37.998 us/op
+Iteration  23: 40.078 us/op
+Iteration  24: 42.980 us/op
+Iteration  25: 41.930 us/op
+Iteration  26: 41.888 us/op
+Iteration  27: 35.146 us/op
+Iteration  28: 37.785 us/op
+Iteration  29: 41.405 us/op
+Iteration  30: 40.073 us/op
+Iteration  31: 32.383 us/op
 
 
 Result "org.keycloak.FileInputStreamReaderTest.MemoryMappedPerf":
-  27.471 ±(99.9%) 0.251 us/op [Average]
-  (min, avg, max) = (26.813, 27.471, 28.309), stdev = 0.384
-  CI (99.9%): [27.219, 27.722] (assumes normal distribution)
+  40.217 ±(99.9%) 2.420 us/op [Average]
+  (min, avg, max) = (32.383, 40.217, 49.838), stdev = 3.695
+  CI (99.9%): [37.798, 42.637] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:03:55
+# Run complete. Total time: 00:04:09
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -241,10 +241,10 @@ the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from th
 Do not assume the numbers tell you what you want them to tell.
 
 Benchmark                                                                 (path)  Mode  Cnt   Score   Error  Units
-FileInputStreamReaderTest.FileInputStreamPerf  ./src/test/resources/short-secret  avgt   31   3.541 ± 0.021  us/op
-FileInputStreamReaderTest.FileInputStreamPerf   ./src/test/resources/long-secret  avgt   31   8.756 ± 0.049  us/op
-FileInputStreamReaderTest.MemoryMappedPerf     ./src/test/resources/short-secret  avgt   31   7.268 ± 0.130  us/op
-FileInputStreamReaderTest.MemoryMappedPerf      ./src/test/resources/long-secret  avgt   31  27.471 ± 0.251  us/op
+FileInputStreamReaderTest.FileInputStreamPerf  ./src/test/resources/short-secret  avgt   31   4.678 ± 0.371  us/op
+FileInputStreamReaderTest.FileInputStreamPerf   ./src/test/resources/long-secret  avgt   31  13.048 ± 1.467  us/op
+FileInputStreamReaderTest.MemoryMappedPerf     ./src/test/resources/short-secret  avgt   31   9.666 ± 0.989  us/op
+FileInputStreamReaderTest.MemoryMappedPerf      ./src/test/resources/long-secret  avgt   31  40.217 ± 2.420  us/op
 
 
 
